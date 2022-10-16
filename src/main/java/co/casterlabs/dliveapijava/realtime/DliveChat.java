@@ -11,6 +11,7 @@ import co.casterlabs.apiutil.auth.ApiAuthException;
 import co.casterlabs.dliveapijava.DliveApiJava;
 import co.casterlabs.dliveapijava.DliveAuth;
 import co.casterlabs.dliveapijava.realtime.events.DliveChatGift;
+import co.casterlabs.dliveapijava.realtime.events.DliveChatHost;
 import co.casterlabs.dliveapijava.realtime.events.DliveChatMessage;
 import co.casterlabs.dliveapijava.realtime.events.DliveChatSubscription;
 import co.casterlabs.dliveapijava.realtime.events._DliveChatDelete;

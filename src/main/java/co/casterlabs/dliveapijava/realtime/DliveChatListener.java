@@ -1,6 +1,7 @@
 package co.casterlabs.dliveapijava.realtime;
 
 import co.casterlabs.dliveapijava.realtime.events.DliveChatGift;
+import co.casterlabs.dliveapijava.realtime.events.DliveChatHost;
 import co.casterlabs.dliveapijava.realtime.events.DliveChatMessage;
 import co.casterlabs.dliveapijava.realtime.events.DliveChatSender;
 import co.casterlabs.dliveapijava.realtime.events.DliveChatSubscription;

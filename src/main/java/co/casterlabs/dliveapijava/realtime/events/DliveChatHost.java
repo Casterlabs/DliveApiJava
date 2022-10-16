@@ -1,6 +1,5 @@
-package co.casterlabs.dliveapijava.realtime;
+package co.casterlabs.dliveapijava.realtime.events;
 
-import co.casterlabs.dliveapijava.realtime.events.DliveChatSender;
 import co.casterlabs.rakurai.json.annotating.JsonClass;
 import co.casterlabs.rakurai.json.annotating.JsonField;
 import lombok.Getter;
@@ -13,6 +12,7 @@ public class DliveChatHost {
     // https://dev.dlive.tv/schema/chatfollow.doc.html
 
     private DliveChatSender sender;
+    
     @JsonField("viewer")
     private int viewers;
 
